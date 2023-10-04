@@ -1,0 +1,58 @@
+body {
+    background-color: #e55151;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b6120c' fill-opacity='0.4'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.tittle {
+    color: black;
+    text-align: center;
+    font-size: 50px
+}
+.txt-main{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.comeco{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.fotos {
+   text-align: left;
+}
+.fotos img {
+    display: block;
+    margin: 25px auto;
+    width: 200px;
+    transition: 1s;
+}
+.fotos img:hover {
+    transition: 1s;
+    width: 600px;
+}
+/* CSS para ocultar o conteúdo */
+.conteudo-escondido {
+    display: none;
+}
+.senha{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.senha-css {
+    color: Black;
+    font-size: 30px;
+}
+.botao-envio {
+    color: Black;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.local-senha {
+    color: orange;
+    font-size: 20px;
+    background-color: purple;
+}
